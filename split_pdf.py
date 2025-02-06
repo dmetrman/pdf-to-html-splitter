@@ -26,9 +26,9 @@ def split_pdf(input_pdf, output_folder, output_prefix, ranges):
 
 # Example usage
 if __name__ == "__main__":
-    input_pdf = "new_file.pdf"  #маю  Replace with the name of another PDF file
-    output_folder = "output_pdfs"
-    output_prefix = "output"
-    ranges = [(1, 5), (5, 10), (10, 15)]
+    input_pdf = "new_file.pdf"  # Replace with the name of another PDF file
+    output_folder = "output_pdfs"  # Folder to save the split PDFs
+    output_prefix = "output"  # Prefix for the split PDF filenames
+    ranges = [(1, 5), (5, 10), (10, 15)]  # Page ranges to split the PDF
 
     split_pdf(input_pdf, output_folder, output_prefix, ranges)
