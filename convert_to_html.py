@@ -31,7 +31,7 @@ def convert_pdfs_to_html(input_folder, pdf2htmlEX_path, data_dir):
 # Example usage
 if __name__ == "__main__":
     input_folder = "output_pdfs"
-    pdf2htmlEX_path = "D:/pdf2htmlEX-master/pdf2htmlEX.exe"  # Update with the correct path
-    data_dir = "D:/pdf2htmlEX-master/data"  # Update with the correct path
+    pdf2htmlEX_path = "D:/pdf2htmlEX-master/pdf2htmlEX.exe"  # Replace with your pdf2htmlEX path
+    data_dir = "D:/pdf2htmlEX-master/data"  # Replace with your pdf2htmlEX data directory
 
     convert_pdfs_to_html(input_folder, pdf2htmlEX_path, data_dir)
